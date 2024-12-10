@@ -19,7 +19,7 @@ export default async function HomePost() {
   }[2]`;
 
   const post: Post = await client.fetch(query);
-  console.log(post);
+  
 
   return (
     <div className="max-w-screen-xl mx-auto mt-16 mb-10 grid md:grid-cols-2 gap-6 grid-cols-1 px-4">

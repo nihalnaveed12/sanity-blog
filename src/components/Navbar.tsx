@@ -4,7 +4,6 @@ import { Button } from "./ui/button";
 import { SignedIn, SignedOut, SignInButton, UserButton } from "@clerk/nextjs";
 
 export default function Navbar() {
-  
   return (
     <nav className="bg-white ">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -17,10 +16,8 @@ export default function Navbar() {
           <div className="flex items-center gap-3">
             <SignedOut>
               <Button>
-
                 <SignInButton />
               </Button>
-              
             </SignedOut>
             <SignedIn>
               <UserButton />
